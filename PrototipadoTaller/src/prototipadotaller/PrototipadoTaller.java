@@ -18,7 +18,7 @@ public class PrototipadoTaller {
      */
     public static void main(String[] args) {
         Random random = new Random();
-        int[] values = new int[10];
+        int[] values = new int[11];
         for (int i = 0; i < values.length; i++) {
             values[i] = random.nextInt(10);
         }
