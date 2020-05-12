@@ -28,7 +28,6 @@ public class PrototipadoTaller {
             for (int j = 0; j < values.length; j++) {
                 if (values[j] == 80) {
                     index = j;
-                    break;
                 }
             }
         }
