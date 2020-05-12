@@ -26,7 +26,7 @@ public class PrototipadoTaller {
         for (int i = 0; i < 10000000; i++) {
             for (int j = 0; j < values.length; j++) {
                 if (values[j] == 80) {
-                    int index = j;
+                    int k = j;
                 }
             }
         }
