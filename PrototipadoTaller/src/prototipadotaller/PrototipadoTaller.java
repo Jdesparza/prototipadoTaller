@@ -13,9 +13,6 @@ import java.util.Random;
  */
 public class PrototipadoTaller {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Random random = new Random();
         int[] values = new int[1000];
@@ -23,16 +20,14 @@ public class PrototipadoTaller {
             values[i] = random.nextInt(1000);
         }
 
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 10000000; i++) {
             int index = -1;
             for (int j = 0; j < values.length; j++) {
                 if (values[j] == 80) {
                     index = j;
+                    break;
                 }
-                System.out.println(index);
             }
-            break;
         }
     }
-    
 }
