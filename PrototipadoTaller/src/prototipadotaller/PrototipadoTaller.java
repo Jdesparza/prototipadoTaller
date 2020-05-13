@@ -18,17 +18,20 @@ public class PrototipadoTaller {
      */
     public static void main(String[] args) {
         Random random = new Random();
-        int[] values = new int[11];
+        int[] values = new int[1000];
         for (int i = 0; i < values.length; i++) {
-            values[i] = random.nextInt(10);
+            values[i] = random.nextInt(1000);
         }
 
         for (int i = 0; i < 10000000; i++) {
+            int index = -1;
             for (int j = 0; j < values.length; j++) {
                 if (values[j] == 80) {
-                    int k = j;
+                    index = j;
                 }
+                System.out.println(index);
             }
+            break;
         }
     }
     
