@@ -23,7 +23,7 @@ public class PrototipadoTaller {
             values[i] = random.nextInt(1000);
         }
 
-        for (int i = 0; i < 10000000; i++) {
+        for (int i = 0; i < 1000; i++) {
             int index = -1;
             for (int j = 0; j < values.length; j++) {
                 if (values[j] == 80) {
